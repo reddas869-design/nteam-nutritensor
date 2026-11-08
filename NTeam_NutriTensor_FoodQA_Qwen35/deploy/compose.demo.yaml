@@ -1,0 +1,25 @@
+name: nteam-nutritensor-demo
+services:
+  demo:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    environment:
+      NTEAM_MODE: demo
+      NTEAM_MODEL_BACKEND: demo
+      NTEAM_ALLOWED_ORIGINS: http://localhost:8000,http://127.0.0.1:8000
+      NTEAM_ALLOWED_HOSTS: localhost,127.0.0.1
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - demo-data:/app/data
+    init: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    read_only: true
+    tmpfs:
+      - /tmp:size=128m,mode=1777
+volumes:
+  demo-data:

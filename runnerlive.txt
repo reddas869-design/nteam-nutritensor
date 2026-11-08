@@ -1,0 +1,19 @@
+conda activate nteam2
+
+cd ~/Desktop/nteam/NTeam_NutriTensor_FoodOnly_Qwen35_Full_Project/NTeam_NutriTensor_FoodQA_Qwen35
+
+NTEAM_ENVIRONMENT=development \
+NTEAM_COOKIE_SECURE=false \
+NTEAM_ALLOWED_ORIGINS="http://localhost:4173,http://127.0.0.1:4173,http://localhost:8000,http://127.0.0.1:8000" \
+python scripts/serve.py --access-log
+
+then
+
+cd ~/Desktop/nteam/NTeam_NutriTensor_FoodOnly_Qwen35_Full_Project/NTeam_NutriTensor_FoodQA_Qwen35
+
+npm run dev
+
+
+
+personal:
+  newton methods to find minimum, metrix multiplication in cuda c++, profiling(ncu, nsys), benchmarking, tailscale, tensor(jacobian matrix), cost, RoPE, ReLU

@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nteam-nutritensor"
+version = "2.0.0"
+description = "Local, evidence-first food nutrition inference service"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.34,<1",
+  "pydantic>=2.10,<3",
+  "httpx>=0.28,<1",
+  "Pillow>=11,<13",
+  "python-multipart>=0.0.20,<1",
+  "python-dotenv>=1,<2",
+  "prometheus-client>=0.21,<1"
+]
+
+[project.optional-dependencies]
+inference = [
+  "transformers>=5.2,<6",
+  "accelerate>=1.8,<2",
+  "bitsandbytes>=0.46,<1",
+  "safetensors>=0.5,<1"
+]
+ocr = ["pytesseract>=0.3.13,<1"]
+test = ["pytest>=8.3,<10", "pytest-asyncio>=0.26,<2", "pytest-cov>=6,<8"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nutritensor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-q"
+
+[tool.setuptools.package-data]
+nutritensor = ["resources/*.json"]

@@ -1,0 +1,43 @@
+name: nteam-nutritensor
+services:
+  app:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.gpu
+      args:
+        GPU_BASE_IMAGE: ${GPU_BASE_IMAGE:-pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime}
+    env_file: .env
+    environment:
+      NTEAM_MODEL_PATH: /models/qwen
+      NTEAM_DATABASE_PATH: /app/data/nutritensor.sqlite3
+      NTEAM_UPLOADS_PATH: /app/data/uploads
+      NTEAM_CATALOG_PATH: /app/data/foods.json
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - type: bind
+        source: ${NTEAM_HOST_MODEL_PATH:?Set the absolute checkpoint path in your shell or .env}
+        target: /models/qwen
+        read_only: true
+      - type: bind
+        source: ./data
+        target: /app/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 180s
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    read_only: true
+    tmpfs:
+      - /tmp:size=512m,mode=1777
+      - /app/cache:uid=10001,gid=10001,size=256m
+    shm_size: 512mb

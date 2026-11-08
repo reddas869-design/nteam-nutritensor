@@ -1,0 +1,29 @@
+:root {
+  font-family:
+    "Inter",
+    "Aptos",
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  color: #293b31;
+  background: #f5f5ed;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #293b31;
+  --muted: #788075;
+  --forest: #2f4939;
+  --deep: #1b3026;
+  --lime: #d7e5b6;
+  --sage: #e4e9dc;
+  --cream: #f5f5ed;
+  --paper: #fcfcf7;
+  --line: #dfe3d7;
+  --danger: #9f4e40;
+  --serif:
+    "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --shadow: 0 20px 70px #172b1c14;
+  --radius: 20px;
+  --header-height: 100px;
+}

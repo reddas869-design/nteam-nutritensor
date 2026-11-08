@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "source": "USDA FoodData Central / SR Legacy",
+  "foods": [
+    {
+      "id": "fdc:171688",
+      "name": "Apple",
+      "aliases": [
+        "apple",
+        "apples",
+        "আপেল"
+      ],
+      "category": "Fruit",
+      "preparation": "Raw, with skin; exclude core and seeds",
+      "nutrients": {
+        "energy_kcal": 52.0,
+        "protein_g": 0.26,
+        "carbohydrate_g": 13.81,
+        "fat_g": 0.17,
+        "fiber_g": 2.4,
+        "sugar_g": 10.39,
+        "sodium_mg": 1.0
+      },
+      "source": {
+        "provider": "USDA FoodData Central / SR Legacy",
+        "record_id": "171688",
+        "title": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+        "url": "https://fdc.nal.usda.gov/food-details/171688/nutrients",
+        "retrieved_at": "2026-10-18T14:42:22.421728+00:00",
+        "license": "CC0 / public domain; USDA attribution requested",
+        "basis": "per_100g",
+        "is_demo": false
+      },
+      "servings": [
+        {
+          "label": "1.0 undetermined cup slices",
+          "grams": 109.0
+        },
+        {
+          "label": "1.0 undetermined medium (3\" dia)",
+          "grams": 182.0
+        },
+        {
+          "label": "1.0 undetermined small (2-3/4\" dia)",
+          "grams": 149.0
+        },
+        {
+          "label": "1.0 undetermined NLEA serving",
+          "grams": 242.0
+        },
+        {
+          "label": "1.0 undetermined cup, quartered or chopped",
+          "grams": 125.0
+        },
+        {
+          "label": "1.0 undetermined extra small (2-1/2\" dia)",
+          "grams": 101.0
+        },
+        {
+          "label": "1.0 undetermined large (3-1/4\" dia)",
+          "grams": 223.0
+        }
+      ],
+      "allergens": [],
+      "notes": "Values are per 100 g. Verify preparation and edible portion.; Publication date: 4/1/2019; Energy preference: Atwater specific, Atwater general, then reported kcal. Common-name mapping is for this raw fruit source only; confirm variety and preparation."
+    },
+    {
+      "id": "fdc:173944",
+      "name": "Banana",
+      "aliases": [
+        "banana",
+        "bananas",
+        "কলা"
+      ],
+      "category": "Fruit",
+      "preparation": "Raw, peeled edible flesh",
+      "nutrients": {
+        "energy_kcal": 89.0,
+        "protein_g": 1.09,
+        "carbohydrate_g": 22.84,
+        "fat_g": 0.33,
+        "fiber_g": 2.6,
+        "sugar_g": 12.23,
+        "sodium_mg": 1.0
+      },
+      "source": {
+        "provider": "USDA FoodData Central / SR Legacy",
+        "record_id": "173944",
+        "title": "Bananas, raw",
+        "url": "https://fdc.nal.usda.gov/food-details/173944/nutrients",
+        "retrieved_at": "2026-10-18T14:42:22.421912+00:00",
+        "license": "CC0 / public domain; USDA attribution requested",
+        "basis": "per_100g",
+        "is_demo": false
+      },
+      "servings": [
+        {
+          "label": "1.0 undetermined NLEA serving",
+          "grams": 126.0
+        },
+        {
+          "label": "1.0 undetermined extra large (9\" or longer)",
+          "grams": 152.0
+        },
+        {
+          "label": "1.0 undetermined large (8\" to 8-7/8\" long)",
+          "grams": 136.0
+        },
+        {
+          "label": "1.0 undetermined cup, sliced",
+          "grams": 150.0
+        },
+        {
+          "label": "1.0 undetermined small (6\" to 6-7/8\" long)",
+          "grams": 101.0
+        },
+        {
+          "label": "1.0 undetermined extra small (less than 6\" long)",
+          "grams": 81.0
+        },
+        {
+          "label": "1.0 undetermined medium (7\" to 7-7/8\" long)",
+          "grams": 118.0
+        },
+        {
+          "label": "1.0 undetermined cup, mashed",
+          "grams": 225.0
+        }
+      ],
+      "allergens": [],
+      "notes": "Values are per 100 g. Verify preparation and edible portion.; Publication date: 4/1/2019; Energy preference: Atwater specific, Atwater general, then reported kcal. Common-name mapping is for this raw fruit source only; confirm variety and preparation."
+    },
+    {
+      "id": "fdc:169105",
+      "name": "Tangerine",
+      "aliases": [
+        "tangerine",
+        "tangerines",
+        "mandarin",
+        "mandarin orange",
+        "ম্যান্ডারিন"
+      ],
+      "category": "Fruit",
+      "preparation": "Raw, peeled edible segments",
+      "nutrients": {
+        "energy_kcal": 53.0,
+        "protein_g": 0.81,
+        "carbohydrate_g": 13.34,
+        "fat_g": 0.31,
+        "fiber_g": 1.8,
+        "sugar_g": 10.58,
+        "sodium_mg": 2.0
+      },
+      "source": {
+        "provider": "USDA FoodData Central / SR Legacy",
+        "record_id": "169105",
+        "title": "Tangerines, (mandarin oranges), raw",
+        "url": "https://fdc.nal.usda.gov/food-details/169105/nutrients",
+        "retrieved_at": "2026-10-18T14:42:22.421991+00:00",
+        "license": "CC0 / public domain; USDA attribution requested",
+        "basis": "per_100g",
+        "is_demo": false
+      },
+      "servings": [
+        {
+          "label": "1.0 undetermined medium (2-1/2\" dia)",
+          "grams": 88.0
+        },
+        {
+          "label": "1.0 undetermined small (2-1/4\" dia)",
+          "grams": 76.0
+        },
+        {
+          "label": "1.0 undetermined large (2-3/4\" dia)",
+          "grams": 120.0
+        },
+        {
+          "label": "1.0 undetermined cup, sections",
+          "grams": 195.0
+        },
+        {
+          "label": "1.0 undetermined NLEA serving",
+          "grams": 109.0
+        }
+      ],
+      "allergens": [],
+      "notes": "Values are per 100 g. Verify preparation and edible portion.; Publication date: 4/1/2019; Energy preference: Atwater specific, Atwater general, then reported kcal. Common-name mapping is for this raw fruit source only; confirm variety and preparation."
+    },
+    {
+      "id": "fdc:169097",
+      "name": "Orange",
+      "aliases": [
+        "orange",
+        "oranges",
+        "কমলা"
+      ],
+      "category": "Fruit",
+      "preparation": "Raw, peeled edible segments",
+      "nutrients": {
+        "energy_kcal": 47.0,
+        "protein_g": 0.94,
+        "carbohydrate_g": 11.75,
+        "fat_g": 0.12,
+        "fiber_g": 2.4,
+        "sugar_g": 9.35,
+        "sodium_mg": 0.0
+      },
+      "source": {
+        "provider": "USDA FoodData Central / SR Legacy",
+        "record_id": "169097",
+        "title": "Oranges, raw, all commercial varieties",
+        "url": "https://fdc.nal.usda.gov/food-details/169097/nutrients",
+        "retrieved_at": "2026-10-18T14:42:22.422055+00:00",
+        "license": "CC0 / public domain; USDA attribution requested",
+        "basis": "per_100g",
+        "is_demo": false
+      },
+      "servings": [
+        {
+          "label": "1.0 undetermined small (2-3/8\" dia)",
+          "grams": 96.0
+        },
+        {
+          "label": "1.0 undetermined large (3-1/16\" dia)",
+          "grams": 184.0
+        },
+        {
+          "label": "1.0 undetermined cup, sections",
+          "grams": 180.0
+        },
+        {
+          "label": "1.0 undetermined fruit (2-5/8\" dia)",
+          "grams": 131.0
+        }
+      ],
+      "allergens": [],
+      "notes": "Values are per 100 g. Verify preparation and edible portion.; Publication date: 4/1/2019; Energy preference: Atwater specific, Atwater general, then reported kcal. Common-name mapping is for this raw fruit source only; confirm variety and preparation."
+    },
+    {
+      "id": "fdc:167762",
+      "name": "Strawberry",
+      "aliases": [
+        "strawberry",
+        "strawberries",
+        "স্ট্রবেরি"
+      ],
+      "category": "Fruit",
+      "preparation": "Raw, edible fruit; remove stems",
+      "nutrients": {
+        "energy_kcal": 32.0,
+        "protein_g": 0.67,
+        "carbohydrate_g": 7.68,
+        "fat_g": 0.3,
+        "fiber_g": 2.0,
+        "sugar_g": 4.89,
+        "sodium_mg": 1.0
+      },
+      "source": {
+        "provider": "USDA FoodData Central / SR Legacy",
+        "record_id": "167762",
+        "title": "Strawberries, raw",
+        "url": "https://fdc.nal.usda.gov/food-details/167762/nutrients",
+        "retrieved_at": "2026-10-18T14:42:22.422135+00:00",
+        "license": "CC0 / public domain; USDA attribution requested",
+        "basis": "per_100g",
+        "is_demo": false
+      },
+      "servings": [
+        {
+          "label": "1.0 undetermined cup, pureed",
+          "grams": 232.0
+        },
+        {
+          "label": "1.0 undetermined large (1-3/8\" dia)",
+          "grams": 18.0
+        },
+        {
+          "label": "1.0 undetermined cup, sliced",
+          "grams": 166.0
+        },
+        {
+          "label": "1.0 undetermined pint as purchased, yields",
+          "grams": 357.0
+        },
+        {
+          "label": "1.0 undetermined cup, halves",
+          "grams": 152.0
+        },
+        {
+          "label": "1.0 undetermined medium (1-1/4\" dia)",
+          "grams": 12.0
+        },
+        {
+          "label": "1.0 undetermined extra large (1-5/8\" dia)",
+          "grams": 27.0
+        },
+        {
+          "label": "1.0 undetermined NLEA serving",
+          "grams": 147.0
+        },
+        {
+          "label": "1.0 undetermined cup, whole",
+          "grams": 144.0
+        },
+        {
+          "label": "1.0 undetermined small (1\" dia)",
+          "grams": 7.0
+        }
+      ],
+      "allergens": [],
+      "notes": "Values are per 100 g. Verify preparation and edible portion.; Publication date: 4/1/2019; Energy preference: Atwater specific, Atwater general, then reported kcal. Common-name mapping is for this raw fruit source only; confirm variety and preparation."
+    },
+    {
+      "id": "fdc:169910",
+      "name": "Mango",
+      "aliases": [
+        "mango",
+        "mangos",
+        "mangoes",
+        "আম"
+      ],
+      "category": "Fruit",
+      "preparation": "Raw, edible flesh; exclude skin and stone",
+      "nutrients": {
+        "energy_kcal": 60.0,
+        "protein_g": 0.82,
+        "carbohydrate_g": 14.98,
+        "fat_g": 0.38,
+        "fiber_g": 1.6,
+        "sugar_g": 13.66,
+        "sodium_mg": 1.0
+      },
+      "source": {
+        "provider": "USDA FoodData Central / SR Legacy",
+        "record_id": "169910",
+        "title": "Mangos, raw",
+        "url": "https://fdc.nal.usda.gov/food-details/169910/nutrients",
+        "retrieved_at": "2026-10-18T14:42:22.422197+00:00",
+        "license": "CC0 / public domain; USDA attribution requested",
+        "basis": "per_100g",
+        "is_demo": false
+      },
+      "servings": [
+        {
+          "label": "1.0 undetermined fruit without refuse",
+          "grams": 336.0
+        },
+        {
+          "label": "1.0 undetermined cup pieces",
+          "grams": 165.0
+        }
+      ],
+      "allergens": [],
+      "notes": "Values are per 100 g. Verify preparation and edible portion.; Publication date: 4/1/2019; Energy preference: Atwater specific, Atwater general, then reported kcal. Common-name mapping is for this raw fruit source only; confirm variety and preparation."
+    },
+    {
+      "id": "fdc:171705",
+      "name": "Avocado",
+      "aliases": [
+        "avocado",
+        "avocados",
+        "অ্যাভোকাডো"
+      ],
+      "category": "Fruit",
+      "preparation": "Raw, edible flesh; exclude skin and stone",
+      "nutrients": {
+        "energy_kcal": 160.0,
+        "protein_g": 2.0,
+        "carbohydrate_g": 8.53,
+        "fat_g": 14.66,
+        "fiber_g": 6.7,
+        "sugar_g": 0.66,
+        "sodium_mg": 7.0
+      },
+      "source": {
+        "provider": "USDA FoodData Central / SR Legacy",
+        "record_id": "171705",
+        "title": "Avocados, raw, all commercial varieties",
+        "url": "https://fdc.nal.usda.gov/food-details/171705/nutrients",
+        "retrieved_at": "2026-10-18T14:42:22.422271+00:00",
+        "license": "CC0 / public domain; USDA attribution requested",
+        "basis": "per_100g",
+        "is_demo": false
+      },
+      "servings": [
+        {
+          "label": "1.0 undetermined cup, pureed",
+          "grams": 230.0
+        },
+        {
+          "label": "1.0 undetermined cup, cubes",
+          "grams": 150.0
+        },
+        {
+          "label": "1.0 undetermined cup, sliced",
+          "grams": 146.0
+        },
+        {
+          "label": "1.0 undetermined NLEA Serving",
+          "grams": 50.0
+        },
+        {
+          "label": "1.0 undetermined avocado, NS as to Florida or California",
+          "grams": 201.0
+        }
+      ],
+      "allergens": [],
+      "notes": "Values are per 100 g. Verify preparation and edible portion.; Publication date: 4/1/2019; Energy preference: Atwater specific, Atwater general, then reported kcal. Common-name mapping is for this raw fruit source only; confirm variety and preparation."
+    },
+    {
+      "id": "fdc:169124",
+      "name": "Pineapple",
+      "aliases": [
+        "pineapple",
+        "pineapples",
+        "আনারস"
+      ],
+      "category": "Fruit",
+      "preparation": "Raw, edible flesh; exclude peel and crown",
+      "nutrients": {
+        "energy_kcal": 50.0,
+        "protein_g": 0.54,
+        "carbohydrate_g": 13.12,
+        "fat_g": 0.12,
+        "fiber_g": 1.4,
+        "sugar_g": 9.85,
+        "sodium_mg": 1.0
+      },
+      "source": {
+        "provider": "USDA FoodData Central / SR Legacy",
+        "record_id": "169124",
+        "title": "Pineapple, raw, all varieties",
+        "url": "https://fdc.nal.usda.gov/food-details/169124/nutrients",
+        "retrieved_at": "2026-10-18T14:42:22.422338+00:00",
+        "license": "CC0 / public domain; USDA attribution requested",
+        "basis": "per_100g",
+        "is_demo": false
+      },
+      "servings": [
+        {
+          "label": "1.0 undetermined slice, thin (3-1/2\" dia x 1/2\" thick)",
+          "grams": 56.0
+        },
+        {
+          "label": "1.0 undetermined slice (4-2/3\" dia x 3/4\" thick)",
+          "grams": 166.0
+        },
+        {
+          "label": "1.0 undetermined fruit",
+          "grams": 905.0
+        },
+        {
+          "label": "1.0 undetermined cup, chunks",
+          "grams": 165.0
+        },
+        {
+          "label": "1.0 undetermined slice (3-1/2\" dia x 3/4\" thick)",
+          "grams": 84.0
+        }
+      ],
+      "allergens": [],
+      "notes": "Values are per 100 g. Verify preparation and edible portion.; Publication date: 4/1/2019; Energy preference: Atwater specific, Atwater general, then reported kcal. Common-name mapping is for this raw fruit source only; confirm variety and preparation."
+    }
+  ]
+}

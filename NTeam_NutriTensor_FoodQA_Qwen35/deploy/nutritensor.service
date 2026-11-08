@@ -1,0 +1,29 @@
+[Unit]
+Description=NTeam NutriTensor local GPU workspace
+After=network.target
+
+[Service]
+Type=simple
+User=nteam
+Group=nteam
+WorkingDirectory=/opt/nteam-nutritensor
+# Change this interpreter to your verified virtual environment.
+ExecStart=/opt/nteam-nutritensor/.venv/bin/python scripts/serve.py --host 127.0.0.1 --port 8000
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=180
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/nteam-nutritensor/data
+# CUDA requires device access. Do not enable PrivateDevices=true.
+Environment=PYTHONUNBUFFERED=1
+Environment=HF_HUB_OFFLINE=1
+Environment=HF_HOME=/opt/nteam-nutritensor/data/hf-cache
+Environment=CUDA_CACHE_PATH=/opt/nteam-nutritensor/data/cuda-cache
+Environment=TOKENIZERS_PARALLELISM=false
+
+[Install]
+WantedBy=multi-user.target

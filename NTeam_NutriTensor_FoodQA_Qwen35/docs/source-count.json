@@ -1,0 +1,636 @@
+{
+  "scope": "Authored application, styling, tests and tooling; comments count, blank lines separately reported.",
+  "excluded": "Third-party dependencies, build output, lockfiles, JSON fixtures, docs, generated API schema, model weights.",
+  "file_count": 117,
+  "physical_lines": 16602,
+  "nonempty_lines": 15429,
+  "by_extension": {
+    ".py": {
+      "files": 66,
+      "physical_lines": 5733,
+      "nonempty_lines": 4819
+    },
+    ".hpp": {
+      "files": 1,
+      "physical_lines": 75,
+      "nonempty_lines": 67
+    },
+    ".cu": {
+      "files": 1,
+      "physical_lines": 243,
+      "nonempty_lines": 227
+    },
+    ".cpp": {
+      "files": 1,
+      "physical_lines": 45,
+      "nonempty_lines": 42
+    },
+    ".tsx": {
+      "files": 24,
+      "physical_lines": 4435,
+      "nonempty_lines": 4368
+    },
+    ".ts": {
+      "files": 17,
+      "physical_lines": 2437,
+      "nonempty_lines": 2272
+    },
+    ".css": {
+      "files": 6,
+      "physical_lines": 3608,
+      "nonempty_lines": 3608
+    },
+    ".sh": {
+      "files": 1,
+      "physical_lines": 26,
+      "nonempty_lines": 26
+    }
+  },
+  "files": [
+    {
+      "path": "backend/nutritensor/__init__.py",
+      "physical_lines": 3,
+      "nonempty_lines": 2
+    },
+    {
+      "path": "backend/nutritensor/agents/__init__.py",
+      "physical_lines": 0,
+      "nonempty_lines": 0
+    },
+    {
+      "path": "backend/nutritensor/agents/context.py",
+      "physical_lines": 52,
+      "nonempty_lines": 44
+    },
+    {
+      "path": "backend/nutritensor/agents/coordinator.py",
+      "physical_lines": 203,
+      "nonempty_lines": 185
+    },
+    {
+      "path": "backend/nutritensor/agents/roles.py",
+      "physical_lines": 171,
+      "nonempty_lines": 154
+    },
+    {
+      "path": "backend/nutritensor/api/__init__.py",
+      "physical_lines": 0,
+      "nonempty_lines": 0
+    },
+    {
+      "path": "backend/nutritensor/api/dependencies.py",
+      "physical_lines": 53,
+      "nonempty_lines": 44
+    },
+    {
+      "path": "backend/nutritensor/api/middleware.py",
+      "physical_lines": 82,
+      "nonempty_lines": 69
+    },
+    {
+      "path": "backend/nutritensor/api/routes.py",
+      "physical_lines": 327,
+      "nonempty_lines": 253
+    },
+    {
+      "path": "backend/nutritensor/core/__init__.py",
+      "physical_lines": 0,
+      "nonempty_lines": 0
+    },
+    {
+      "path": "backend/nutritensor/core/accounts.py",
+      "physical_lines": 75,
+      "nonempty_lines": 62
+    },
+    {
+      "path": "backend/nutritensor/core/config.py",
+      "physical_lines": 187,
+      "nonempty_lines": 170
+    },
+    {
+      "path": "backend/nutritensor/core/errors.py",
+      "physical_lines": 75,
+      "nonempty_lines": 46
+    },
+    {
+      "path": "backend/nutritensor/core/security.py",
+      "physical_lines": 80,
+      "nonempty_lines": 61
+    },
+    {
+      "path": "backend/nutritensor/core/telemetry.py",
+      "physical_lines": 73,
+      "nonempty_lines": 62
+    },
+    {
+      "path": "backend/nutritensor/domain/__init__.py",
+      "physical_lines": 0,
+      "nonempty_lines": 0
+    },
+    {
+      "path": "backend/nutritensor/domain/models.py",
+      "physical_lines": 358,
+      "nonempty_lines": 281
+    },
+    {
+      "path": "backend/nutritensor/inference/__init__.py",
+      "physical_lines": 0,
+      "nonempty_lines": 0
+    },
+    {
+      "path": "backend/nutritensor/inference/contracts.py",
+      "physical_lines": 33,
+      "nonempty_lines": 24
+    },
+    {
+      "path": "backend/nutritensor/inference/demo.py",
+      "physical_lines": 33,
+      "nonempty_lines": 27
+    },
+    {
+      "path": "backend/nutritensor/inference/factory.py",
+      "physical_lines": 13,
+      "nonempty_lines": 11
+    },
+    {
+      "path": "backend/nutritensor/inference/gateway.py",
+      "physical_lines": 44,
+      "nonempty_lines": 36
+    },
+    {
+      "path": "backend/nutritensor/inference/parsing.py",
+      "physical_lines": 96,
+      "nonempty_lines": 79
+    },
+    {
+      "path": "backend/nutritensor/inference/prompts.py",
+      "physical_lines": 32,
+      "nonempty_lines": 29
+    },
+    {
+      "path": "backend/nutritensor/inference/remote.py",
+      "physical_lines": 83,
+      "nonempty_lines": 74
+    },
+    {
+      "path": "backend/nutritensor/inference/transformers.py",
+      "physical_lines": 232,
+      "nonempty_lines": 216
+    },
+    {
+      "path": "backend/nutritensor/main.py",
+      "physical_lines": 132,
+      "nonempty_lines": 115
+    },
+    {
+      "path": "backend/nutritensor/nutrition/__init__.py",
+      "physical_lines": 0,
+      "nonempty_lines": 0
+    },
+    {
+      "path": "backend/nutritensor/nutrition/calculator.py",
+      "physical_lines": 116,
+      "nonempty_lines": 101
+    },
+    {
+      "path": "backend/nutritensor/nutrition/catalog.py",
+      "physical_lines": 110,
+      "nonempty_lines": 95
+    },
+    {
+      "path": "backend/nutritensor/nutrition/demo.py",
+      "physical_lines": 48,
+      "nonempty_lines": 43
+    },
+    {
+      "path": "backend/nutritensor/nutrition/policy.py",
+      "physical_lines": 47,
+      "nonempty_lines": 38
+    },
+    {
+      "path": "backend/nutritensor/nutrition/starter.py",
+      "physical_lines": 39,
+      "nonempty_lines": 33
+    },
+    {
+      "path": "backend/nutritensor/nutrition/usda.py",
+      "physical_lines": 125,
+      "nonempty_lines": 108
+    },
+    {
+      "path": "backend/nutritensor/services/__init__.py",
+      "physical_lines": 0,
+      "nonempty_lines": 0
+    },
+    {
+      "path": "backend/nutritensor/services/chat.py",
+      "physical_lines": 35,
+      "nonempty_lines": 31
+    },
+    {
+      "path": "backend/nutritensor/services/images.py",
+      "physical_lines": 86,
+      "nonempty_lines": 76
+    },
+    {
+      "path": "backend/nutritensor/services/journal.py",
+      "physical_lines": 93,
+      "nonempty_lines": 78
+    },
+    {
+      "path": "backend/nutritensor/services/labels.py",
+      "physical_lines": 60,
+      "nonempty_lines": 50
+    },
+    {
+      "path": "backend/nutritensor/storage/__init__.py",
+      "physical_lines": 0,
+      "nonempty_lines": 0
+    },
+    {
+      "path": "backend/nutritensor/storage/database.py",
+      "physical_lines": 413,
+      "nonempty_lines": 367
+    },
+    {
+      "path": "backend/tests/conftest.py",
+      "physical_lines": 79,
+      "nonempty_lines": 60
+    },
+    {
+      "path": "backend/tests/test_accounts.py",
+      "physical_lines": 96,
+      "nonempty_lines": 80
+    },
+    {
+      "path": "backend/tests/test_api.py",
+      "physical_lines": 184,
+      "nonempty_lines": 149
+    },
+    {
+      "path": "backend/tests/test_concurrency.py",
+      "physical_lines": 173,
+      "nonempty_lines": 142
+    },
+    {
+      "path": "backend/tests/test_food_only.py",
+      "physical_lines": 149,
+      "nonempty_lines": 116
+    },
+    {
+      "path": "backend/tests/test_journal_and_labels.py",
+      "physical_lines": 41,
+      "nonempty_lines": 28
+    },
+    {
+      "path": "backend/tests/test_nutrition.py",
+      "physical_lines": 165,
+      "nonempty_lines": 128
+    },
+    {
+      "path": "backend/tests/test_security_and_images.py",
+      "physical_lines": 119,
+      "nonempty_lines": 88
+    },
+    {
+      "path": "backend/tests/test_starter_catalog.py",
+      "physical_lines": 44,
+      "nonempty_lines": 36
+    },
+    {
+      "path": "cuda/include/normalize_reference.hpp",
+      "physical_lines": 75,
+      "nonempty_lines": 67
+    },
+    {
+      "path": "cuda/src/normalize_benchmark.cu",
+      "physical_lines": 243,
+      "nonempty_lines": 227
+    },
+    {
+      "path": "cuda/src/reference_test.cpp",
+      "physical_lines": 45,
+      "nonempty_lines": 42
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "physical_lines": 149,
+      "nonempty_lines": 145
+    },
+    {
+      "path": "frontend/src/components/Brand.tsx",
+      "physical_lines": 39,
+      "nonempty_lines": 39
+    },
+    {
+      "path": "frontend/src/components/ChatPanel.tsx",
+      "physical_lines": 102,
+      "nonempty_lines": 100
+    },
+    {
+      "path": "frontend/src/components/FoodSearch.tsx",
+      "physical_lines": 73,
+      "nonempty_lines": 72
+    },
+    {
+      "path": "frontend/src/components/LabelReader.tsx",
+      "physical_lines": 109,
+      "nonempty_lines": 108
+    },
+    {
+      "path": "frontend/src/components/MacroDisplay.tsx",
+      "physical_lines": 89,
+      "nonempty_lines": 86
+    },
+    {
+      "path": "frontend/src/components/MealComposer.tsx",
+      "physical_lines": 202,
+      "nonempty_lines": 201
+    },
+    {
+      "path": "frontend/src/components/Navigation.tsx",
+      "physical_lines": 109,
+      "nonempty_lines": 107
+    },
+    {
+      "path": "frontend/src/components/Primitives.tsx",
+      "physical_lines": 257,
+      "nonempty_lines": 247
+    },
+    {
+      "path": "frontend/src/components/ProgressPanel.tsx",
+      "physical_lines": 73,
+      "nonempty_lines": 71
+    },
+    {
+      "path": "frontend/src/components/ResultPanel.tsx",
+      "physical_lines": 579,
+      "nonempty_lines": 576
+    },
+    {
+      "path": "frontend/src/components/ScanResult.tsx",
+      "physical_lines": 296,
+      "nonempty_lines": 294
+    },
+    {
+      "path": "frontend/src/components/ScanStatus.tsx",
+      "physical_lines": 43,
+      "nonempty_lines": 42
+    },
+    {
+      "path": "frontend/src/components/ThreeScene.tsx",
+      "physical_lines": 343,
+      "nonempty_lines": 335
+    },
+    {
+      "path": "frontend/src/hooks/useAnalysis.ts",
+      "physical_lines": 131,
+      "nonempty_lines": 124
+    },
+    {
+      "path": "frontend/src/hooks/useAsync.ts",
+      "physical_lines": 46,
+      "nonempty_lines": 41
+    },
+    {
+      "path": "frontend/src/hooks/useCamera.ts",
+      "physical_lines": 133,
+      "nonempty_lines": 126
+    },
+    {
+      "path": "frontend/src/lib/api.ts",
+      "physical_lines": 321,
+      "nonempty_lines": 290
+    },
+    {
+      "path": "frontend/src/lib/defaults.ts",
+      "physical_lines": 36,
+      "nonempty_lines": 33
+    },
+    {
+      "path": "frontend/src/lib/demo.ts",
+      "physical_lines": 499,
+      "nonempty_lines": 470
+    },
+    {
+      "path": "frontend/src/lib/export.test.ts",
+      "physical_lines": 32,
+      "nonempty_lines": 29
+    },
+    {
+      "path": "frontend/src/lib/export.ts",
+      "physical_lines": 51,
+      "nonempty_lines": 47
+    },
+    {
+      "path": "frontend/src/lib/nutrition.test.ts",
+      "physical_lines": 189,
+      "nonempty_lines": 176
+    },
+    {
+      "path": "frontend/src/lib/nutrition.ts",
+      "physical_lines": 260,
+      "nonempty_lines": 248
+    },
+    {
+      "path": "frontend/src/lib/scan.test.ts",
+      "physical_lines": 93,
+      "nonempty_lines": 90
+    },
+    {
+      "path": "frontend/src/lib/scan.ts",
+      "physical_lines": 61,
+      "nonempty_lines": 57
+    },
+    {
+      "path": "frontend/src/lib/sse.test.ts",
+      "physical_lines": 69,
+      "nonempty_lines": 63
+    },
+    {
+      "path": "frontend/src/lib/sse.ts",
+      "physical_lines": 70,
+      "nonempty_lines": 67
+    },
+    {
+      "path": "frontend/src/lib/storage.ts",
+      "physical_lines": 90,
+      "nonempty_lines": 85
+    },
+    {
+      "path": "frontend/src/lib/types.ts",
+      "physical_lines": 324,
+      "nonempty_lines": 295
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "physical_lines": 17,
+      "nonempty_lines": 16
+    },
+    {
+      "path": "frontend/src/pages/AboutPage.tsx",
+      "physical_lines": 139,
+      "nonempty_lines": 137
+    },
+    {
+      "path": "frontend/src/pages/CapturePage.tsx",
+      "physical_lines": 140,
+      "nonempty_lines": 138
+    },
+    {
+      "path": "frontend/src/pages/CatalogPage.tsx",
+      "physical_lines": 179,
+      "nonempty_lines": 178
+    },
+    {
+      "path": "frontend/src/pages/InsightsPage.tsx",
+      "physical_lines": 259,
+      "nonempty_lines": 256
+    },
+    {
+      "path": "frontend/src/pages/JournalPage.tsx",
+      "physical_lines": 350,
+      "nonempty_lines": 349
+    },
+    {
+      "path": "frontend/src/pages/ManualPage.tsx",
+      "physical_lines": 102,
+      "nonempty_lines": 101
+    },
+    {
+      "path": "frontend/src/pages/RecipesPage.tsx",
+      "physical_lines": 346,
+      "nonempty_lines": 345
+    },
+    {
+      "path": "frontend/src/pages/SettingsPage.tsx",
+      "physical_lines": 242,
+      "nonempty_lines": 241
+    },
+    {
+      "path": "frontend/src/state/workspace.tsx",
+      "physical_lines": 198,
+      "nonempty_lines": 184
+    },
+    {
+      "path": "frontend/src/styles/base.css",
+      "physical_lines": 406,
+      "nonempty_lines": 406
+    },
+    {
+      "path": "frontend/src/styles/capture.css",
+      "physical_lines": 605,
+      "nonempty_lines": 605
+    },
+    {
+      "path": "frontend/src/styles/components.css",
+      "physical_lines": 959,
+      "nonempty_lines": 959
+    },
+    {
+      "path": "frontend/src/styles/pages.css",
+      "physical_lines": 916,
+      "nonempty_lines": 916
+    },
+    {
+      "path": "frontend/src/styles/responsive.css",
+      "physical_lines": 693,
+      "nonempty_lines": 693
+    },
+    {
+      "path": "frontend/src/styles/tokens.css",
+      "physical_lines": 29,
+      "nonempty_lines": 29
+    },
+    {
+      "path": "scripts/backup.py",
+      "physical_lines": 29,
+      "nonempty_lines": 23
+    },
+    {
+      "path": "scripts/benchmark.py",
+      "physical_lines": 107,
+      "nonempty_lines": 96
+    },
+    {
+      "path": "scripts/compare_benchmarks.py",
+      "physical_lines": 47,
+      "nonempty_lines": 39
+    },
+    {
+      "path": "scripts/configure.py",
+      "physical_lines": 117,
+      "nonempty_lines": 105
+    },
+    {
+      "path": "scripts/count_lines.py",
+      "physical_lines": 60,
+      "nonempty_lines": 50
+    },
+    {
+      "path": "scripts/dev.py",
+      "physical_lines": 53,
+      "nonempty_lines": 45
+    },
+    {
+      "path": "scripts/doctor.py",
+      "physical_lines": 93,
+      "nonempty_lines": 81
+    },
+    {
+      "path": "scripts/import_fdc.py",
+      "physical_lines": 152,
+      "nonempty_lines": 135
+    },
+    {
+      "path": "scripts/inspect_model.py",
+      "physical_lines": 30,
+      "nonempty_lines": 24
+    },
+    {
+      "path": "scripts/install_fruit_catalog.py",
+      "physical_lines": 23,
+      "nonempty_lines": 18
+    },
+    {
+      "path": "scripts/install_inference.py",
+      "physical_lines": 51,
+      "nonempty_lines": 43
+    },
+    {
+      "path": "scripts/make_patch.py",
+      "physical_lines": 41,
+      "nonempty_lines": 33
+    },
+    {
+      "path": "scripts/manage_users.py",
+      "physical_lines": 102,
+      "nonempty_lines": 93
+    },
+    {
+      "path": "scripts/package_source.py",
+      "physical_lines": 88,
+      "nonempty_lines": 76
+    },
+    {
+      "path": "scripts/profile.sh",
+      "physical_lines": 26,
+      "nonempty_lines": 26
+    },
+    {
+      "path": "scripts/serve.py",
+      "physical_lines": 42,
+      "nonempty_lines": 34
+    },
+    {
+      "path": "scripts/smoke_model.py",
+      "physical_lines": 39,
+      "nonempty_lines": 33
+    },
+    {
+      "path": "vite.config.ts",
+      "physical_lines": 32,
+      "nonempty_lines": 31
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "release": "2.0.0",
+  "verified_at": "2026-10-19T03:22:08.631059+00:00",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "backend": {
+    "tests": 110,
+    "failed": 0,
+    "errors": 0
+  },
+  "frontend": {
+    "tests": 37,
+    "passed": 37,
+    "failed": 0
+  },
+  "checks": {
+    "typescript": "passed",
+    "vite_production_build": "passed",
+    "python_compilation": "passed",
+    "python_wheel": "built; both bundled nutrition JSON resources present",
+    "cpp_reference": "passed in v1; unchanged in v2",
+    "deployment_yaml": "parsed in v1; unchanged in v2",
+    "shell_syntax": "passed in v1; unchanged in v2",
+    "usda_starter": "8 raw-fruit records retrieved directly; normalized values equal retained source in tests"
+  },
+  "source_lines": {
+    "file_count": 117,
+    "physical_lines": 16602,
+    "nonempty_lines": 15429
+  },
+  "not_executed": [
+    "Browser visual and interaction QA (supported browser capability unavailable)",
+    "Real camera and IndexedDB",
+    "Actual Qwen checkpoint loading and image-recognition accuracy",
+    "CUDA kernel compilation and execution",
+    "GPU latency and VRAM fit",
+    "Docker and systemd deployment",
+    "Caddy HTTPS",
+    "Tesseract OCR",
+    "Operator-key USDA import CLI",
+    "External security audit"
+  ],
+  "warnings": [
+    "Starlette TestClient HTTPX deprecation warning",
+    "Optional Three.js chunk exceeds 500 kB minified; loaded only when About illustration is opened"
+  ]
+}

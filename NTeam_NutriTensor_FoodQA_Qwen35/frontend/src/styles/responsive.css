@@ -1,0 +1,693 @@
+@media (min-width: 1600px) {
+  .app-header {
+    padding: 0 65px;
+  }
+  .capture-editorial {
+    left: 11%;
+  }
+  .demo-scene {
+    width: 65%;
+    right: 0;
+  }
+  .result-panel {
+    width: 480px;
+  }
+}
+@media (max-width: 1100px) {
+  .app-header {
+    padding: 0 28px;
+  }
+  .header-left {
+    gap: 20px;
+  }
+  .workspace-page {
+    width: calc(100% - 70px);
+  }
+  .capture-editorial {
+    left: 6%;
+  }
+  .capture-editorial h1 {
+    font-size: 51px;
+  }
+  .demo-scene {
+    right: -9%;
+    width: 78%;
+  }
+  .result-panel {
+    width: 400px;
+  }
+  .with-result .capture-editorial h1 {
+    font-size: 32px;
+  }
+  .with-result .capture-hint .hint-line,
+  .with-result .capture-footer-note .footer-divider,
+  .with-result .capture-footer-note > span:last-child {
+    display: none;
+  }
+  .with-result .capture-editorial {
+    top: 21%;
+  }
+  .with-result .demo-scene {
+    width: 130%;
+    right: -15%;
+    top: 23%;
+  }
+  .settings-layout {
+    grid-template-columns: 1fr 250px;
+    gap: 22px;
+  }
+  .privacy-card {
+    padding: 23px;
+  }
+  .privacy-card h3 {
+    font-size: 26px;
+  }
+  .journal-cards,
+  .recipe-grid,
+  .catalog-grid {
+    gap: 16px;
+  }
+  .catalog-card,
+  .recipe-card {
+    padding: 19px;
+  }
+  .about-feature {
+    gap: 40px;
+  }
+}
+@media (max-width: 800px) {
+  :root {
+    --header-height: 85px;
+  }
+  .workspace-page {
+    width: calc(100% - 44px);
+    padding-top: 28px;
+  }
+  .page-heading {
+    align-items: flex-start;
+    margin-bottom: 32px;
+  }
+  .page-heading h1 {
+    font-size: 42px;
+  }
+  .page-description {
+    font-size: 12px;
+  }
+  .header-index {
+    display: none;
+  }
+  .journal-cards,
+  .recipe-grid,
+  .catalog-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .settings-layout {
+    grid-template-columns: 1fr;
+  }
+  .settings-aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+  .privacy-card h3 br {
+    display: none;
+  }
+  .insight-stats {
+    gap: 12px;
+  }
+  .insight-stats > div {
+    padding: 20px;
+  }
+  .insight-stats strong {
+    font-size: 35px;
+  }
+  .insight-bottom {
+    gap: 16px;
+  }
+  .about-grid {
+    gap: 22px;
+  }
+  .project-download {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .capture-page {
+    min-height: 750px;
+  }
+  .capture-editorial {
+    top: 18%;
+    max-width: 70%;
+    left: 7%;
+  }
+  .capture-editorial h1 {
+    font-size: 47px;
+    letter-spacing: -1.6px;
+  }
+  .capture-editorial > p:not(.eyebrow) {
+    display: none;
+  }
+  .demo-scene {
+    width: 95%;
+    right: -18%;
+    height: 63%;
+    top: 13%;
+  }
+  .scene-note,
+  .vertical-caption {
+    display: none;
+  }
+  .camera-tools {
+    top: 102px;
+    right: 22px;
+  }
+  .capture-editorial .camera-start {
+    margin-top: 2px;
+  }
+  .capture-bottom {
+    bottom: 28px;
+  }
+  .capture-hint {
+    margin-bottom: 15px;
+  }
+  .result-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: min(440px, 100%);
+  }
+  .with-result .viewfinder {
+    filter: brightness(0.8);
+  }
+  .progress-overlay {
+    width: 350px;
+    right: 20px;
+  }
+}
+@media (max-width: 560px) {
+  :root {
+    --header-height: 78px;
+  }
+  .app-header {
+    padding: 0 20px;
+    gap: 12px;
+  }
+  .header-left {
+    gap: 12px;
+  }
+  .header-left > .icon-button {
+    width: 36px;
+    height: 36px;
+  }
+  .brand {
+    gap: 7px;
+  }
+  .brand > svg {
+    width: 23px;
+    height: 29px;
+  }
+  .brand strong {
+    font-size: 18px;
+    letter-spacing: -0.6px;
+  }
+  .brand small {
+    font-size: 6px;
+    letter-spacing: 2px;
+  }
+  .workspace-badge {
+    padding: 8px;
+    gap: 6px;
+    font-size: 8px;
+  }
+  .workspace-badge > svg {
+    display: none;
+  }
+  .capture-page {
+    min-height: 660px;
+  }
+  .capture-editorial {
+    left: 26px;
+    top: 16%;
+    max-width: calc(100% - 50px);
+  }
+  .capture-editorial .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1.3px;
+  }
+  .tiny-star {
+    font-size: 13px;
+    margin-right: 5px;
+  }
+  .capture-editorial h1 {
+    font-size: 40px;
+    margin: 16px 0 14px;
+    letter-spacing: -1.2px;
+  }
+  .camera-start {
+    font-size: 9px;
+    padding: 9px 11px;
+    gap: 8px;
+    background: #f7f9ebcc;
+  }
+  .camera-start svg {
+    width: 14px;
+  }
+  .scene-caption {
+    font-size: 6px;
+    margin-top: 10px;
+    letter-spacing: 0.8px;
+  }
+  .demo-scene {
+    width: 120%;
+    right: -18%;
+    height: 58%;
+    top: 17%;
+    pointer-events: none;
+  }
+  .capture-bottom {
+    bottom: max(18px, env(safe-area-inset-bottom));
+  }
+  .capture-hint {
+    font-size: 8px;
+    gap: 9px;
+    margin-bottom: 14px;
+  }
+  .hint-line {
+    width: 18px;
+  }
+  .shutter-controls {
+    margin-top: 18px;
+    gap: 32px;
+  }
+  .shutter {
+    width: 74px;
+    height: 74px;
+  }
+  .shutter-side .icon-button {
+    width: 43px;
+    height: 43px;
+  }
+  .capture-footer-note {
+    font-size: 7px;
+    margin-top: 19px;
+  }
+  .capture-footer-note > span:last-child,
+  .capture-footer-note .footer-divider {
+    display: none;
+  }
+  .capture-modes button {
+    font-size: 9px;
+    padding: 7px 13px;
+  }
+  .capture-modes {
+    padding: 3px;
+  }
+  .server-discovered {
+    top: 91px;
+    bottom: auto;
+    left: 25px;
+    font-size: 8px;
+    padding: 7px 10px;
+  }
+  .camera-tools {
+    top: 95px;
+    right: 20px;
+  }
+  .camera-tools .icon-button {
+    height: 30px;
+    width: 30px;
+  }
+  .camera-live {
+    font-size: 8px;
+  }
+  .viewfinder-grid {
+    left: 12%;
+    right: 12%;
+    top: 25%;
+    bottom: 36%;
+  }
+  .result-panel {
+    z-index: 25;
+    width: 100%;
+    position: fixed;
+    height: 100svh;
+    border: 0;
+  }
+  .result-header {
+    padding: 24px 24px 17px;
+  }
+  .result-header h2 {
+    font-size: 29px;
+  }
+  .result-scroll {
+    padding: 0 24px 26px;
+  }
+  .result-footer {
+    padding: 14px 24px max(16px, env(safe-area-inset-bottom));
+  }
+  .progress-overlay {
+    position: fixed;
+    inset: 0;
+    padding: 24px;
+    width: 100%;
+    z-index: 25;
+    background: #263a2855;
+    backdrop-filter: blur(6px);
+  }
+  .progress-card {
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .workspace-page {
+    width: calc(100% - 38px);
+    padding: 22px 0 45px;
+  }
+  .page-heading {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .page-heading h1 {
+    font-size: 37px;
+    letter-spacing: -1.2px;
+  }
+  .page-heading .eyebrow {
+    font-size: 8px;
+    margin-bottom: 13px;
+  }
+  .page-description {
+    font-size: 11px;
+    margin-top: 14px;
+  }
+  .page-heading > .button,
+  .page-heading > .badge,
+  .page-heading > .period-switch {
+    margin-top: 22px;
+  }
+  .journal-toolbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 22px;
+  }
+  .journal-toolbar .search-input {
+    grid-column: 1 / -1;
+    max-width: none;
+  }
+  .journal-toolbar .button {
+    margin-left: 0;
+  }
+  .journal-day-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .journal-day-heading h2 {
+    font-size: 13px;
+  }
+  .journal-day-heading > span {
+    margin-left: 27px;
+    font-size: 9px;
+  }
+  .journal-cards,
+  .recipe-grid {
+    grid-template-columns: 1fr;
+  }
+  .journal-card {
+    display: grid;
+    grid-template-columns: 105px 1fr;
+    border-radius: 13px;
+  }
+  .meal-art {
+    height: 100%;
+  }
+  .mini-plate {
+    transform: rotate(-18deg) scaleY(0.85) scale(0.76);
+  }
+  .meal-art > small {
+    font-size: 6px;
+    bottom: 18px;
+    left: 13px;
+  }
+  .journal-card-content {
+    padding: 16px;
+  }
+  .journal-card-title h3 {
+    font-size: 23px;
+  }
+  .journal-card-content > p {
+    font-size: 9px;
+    margin-bottom: 12px;
+    min-height: 0;
+  }
+  .journal-card-nutrients > strong {
+    font-size: 23px;
+  }
+  .journal-card-nutrients > span {
+    font-size: 8px;
+  }
+  .journal-card-meta .badge {
+    font-size: 8px;
+    padding: 4px 7px;
+  }
+  .journal-card-meta > span:last-child {
+    font-size: 8px;
+  }
+  .insight-stats {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .insight-stats > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    align-items: center;
+  }
+  .insight-stats strong {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    text-align: right;
+    margin: 0;
+  }
+  .insight-stats > div > span {
+    font-size: 8px;
+    margin-top: 9px;
+  }
+  .chart-card {
+    padding: 20px 16px;
+  }
+  .chart-heading {
+    margin-bottom: 25px;
+  }
+  .chart-heading h2 {
+    font-size: 23px;
+  }
+  .chart-heading select {
+    padding: 9px;
+    font-size: 10px;
+    max-width: 110px;
+  }
+  .day-chart {
+    height: 210px;
+    gap: 12px;
+  }
+  .chart-axis {
+    width: 42px;
+    font-size: 8px;
+  }
+  .chart-legend {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .chart-legend .badge {
+    font-size: 8px;
+  }
+  .chart-legend > span:not(.badge) {
+    font-size: 8px;
+  }
+  .insight-bottom {
+    grid-template-columns: 1fr;
+  }
+  .recipe-builder {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .recipe-card {
+    padding: 24px;
+  }
+  .catalog-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 13px;
+  }
+  .catalog-toolbar .search-input {
+    max-width: none;
+  }
+  .category-select {
+    margin-left: 0;
+  }
+  .category-select select {
+    flex: 1;
+  }
+  .catalog-grid {
+    gap: 12px;
+  }
+  .catalog-card {
+    padding: 16px 13px;
+  }
+  .catalog-card h2 {
+    font-size: 22px;
+  }
+  .catalog-card-top {
+    gap: 6px;
+    margin-bottom: 15px;
+  }
+  .catalog-card-top small {
+    font-size: 8px;
+  }
+  .catalog-card-top .food-category-dot {
+    height: 24px;
+    width: 24px;
+    border-width: 4px;
+  }
+  .catalog-card-top > svg {
+    display: none;
+  }
+  .catalog-energy strong {
+    font-size: 27px;
+  }
+  .catalog-energy span {
+    font-size: 8px;
+  }
+  .catalog-macros {
+    gap: 8px;
+    font-size: 7px;
+  }
+  .catalog-macros strong {
+    margin-left: 1px;
+  }
+  .catalog-source {
+    font-size: 7px;
+    line-height: 1.6;
+  }
+  .settings-card {
+    padding: 21px;
+  }
+  .settings-section-title {
+    gap: 10px;
+  }
+  .settings-section-title > .badge {
+    display: none;
+  }
+  .settings-card h2 {
+    font-size: 15px;
+  }
+  .capabilities-list {
+    grid-template-columns: 110px 1fr;
+    gap: 16px;
+    font-size: 10px;
+  }
+  .settings-aside {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .connected-summary {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .about-feature {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding: 30px 0;
+  }
+  .about-feature h2 {
+    font-size: 39px;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .about-grid article {
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--line);
+  }
+  .project-download {
+    padding: 27px;
+  }
+  .project-download h2 {
+    font-size: 29px;
+  }
+  .modal {
+    max-height: calc(100svh - 30px);
+    border-radius: 18px;
+  }
+  .modal-content {
+    padding: 22px;
+  }
+  .modal-header h2 {
+    font-size: 27px;
+  }
+  .form-grid {
+    gap: 11px;
+  }
+  .toast-stack {
+    bottom: max(18px, env(safe-area-inset-bottom));
+    left: 15px;
+    right: 15px;
+    max-width: none;
+  }
+  .empty-state {
+    padding: 30px 22px;
+    min-height: 330px;
+  }
+  .empty-state h3 {
+    font-size: 27px;
+  }
+}
+@media (max-height: 720px) and (min-width: 801px) {
+  .capture-page {
+    min-height: 650px;
+  }
+  .capture-editorial {
+    top: 23%;
+  }
+  .capture-editorial h1 {
+    font-size: 48px;
+  }
+  .capture-editorial > p:not(.eyebrow) {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .demo-scene {
+    height: 79%;
+    top: 0;
+  }
+  .capture-bottom {
+    bottom: 20px;
+  }
+  .capture-hint {
+    margin-bottom: 12px;
+  }
+  .scene-note {
+    display: none;
+  }
+}
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

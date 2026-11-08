@@ -1,0 +1,614 @@
+[
+  {
+    "id": "demo:rice",
+    "name": "Steamed rice",
+    "aliases": ["rice", "bhaat", "ভাত"],
+    "category": "Grains",
+    "preparation": "cooked",
+    "nutrients": {
+      "energy_kcal": 130.0,
+      "protein_g": 2.7,
+      "carbohydrate_g": 28.2,
+      "fat_g": 0.3,
+      "fiber_g": 0.4,
+      "sugar_g": 0.1,
+      "sodium_mg": 1.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "rice",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 150.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:dal",
+    "name": "Yellow dal",
+    "aliases": ["dal", "lentils", "ডাল"],
+    "category": "Pulses",
+    "preparation": "cooked",
+    "nutrients": {
+      "energy_kcal": 110.0,
+      "protein_g": 6.5,
+      "carbohydrate_g": 16.0,
+      "fat_g": 2.2,
+      "fiber_g": 4.0,
+      "sugar_g": 1.1,
+      "sodium_mg": 180.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "dal",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 150.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:chicken",
+    "name": "Grilled chicken",
+    "aliases": ["chicken", "মুরগি"],
+    "category": "Protein",
+    "preparation": "cooked",
+    "nutrients": {
+      "energy_kcal": 165.0,
+      "protein_g": 31.0,
+      "carbohydrate_g": 0.0,
+      "fat_g": 3.6,
+      "fiber_g": 0.0,
+      "sugar_g": 0.0,
+      "sodium_mg": 74.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "chicken",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 120.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:cucumber",
+    "name": "Cucumber",
+    "aliases": ["cucumber", "শসা"],
+    "category": "Vegetables",
+    "preparation": "raw",
+    "nutrients": {
+      "energy_kcal": 15.0,
+      "protein_g": 0.7,
+      "carbohydrate_g": 3.6,
+      "fat_g": 0.1,
+      "fiber_g": 0.5,
+      "sugar_g": 1.7,
+      "sodium_mg": 2.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "cucumber",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 80.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:tomato",
+    "name": "Tomato",
+    "aliases": ["tomato", "টমেটো"],
+    "category": "Vegetables",
+    "preparation": "raw",
+    "nutrients": {
+      "energy_kcal": 18.0,
+      "protein_g": 0.9,
+      "carbohydrate_g": 3.9,
+      "fat_g": 0.2,
+      "fiber_g": 1.2,
+      "sugar_g": 2.6,
+      "sodium_mg": 5.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "tomato",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 80.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:chapati",
+    "name": "Chapati",
+    "aliases": ["roti", "chapati", "রুটি"],
+    "category": "Grains",
+    "preparation": "cooked",
+    "nutrients": {
+      "energy_kcal": 270.0,
+      "protein_g": 9.0,
+      "carbohydrate_g": 49.0,
+      "fat_g": 5.0,
+      "fiber_g": 7.0,
+      "sugar_g": 2.0,
+      "sodium_mg": 200.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "chapati",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 40.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:egg",
+    "name": "Boiled egg",
+    "aliases": ["egg", "ডিম"],
+    "category": "Protein",
+    "preparation": "cooked",
+    "nutrients": {
+      "energy_kcal": 155.0,
+      "protein_g": 13.0,
+      "carbohydrate_g": 1.1,
+      "fat_g": 11.0,
+      "fiber_g": 0.0,
+      "sugar_g": 1.1,
+      "sodium_mg": 124.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "egg",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 50.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:paneer",
+    "name": "Paneer",
+    "aliases": ["paneer", "পনির"],
+    "category": "Dairy",
+    "preparation": "fresh",
+    "nutrients": {
+      "energy_kcal": 265.0,
+      "protein_g": 18.0,
+      "carbohydrate_g": 3.0,
+      "fat_g": 21.0,
+      "fiber_g": 0.0,
+      "sugar_g": 2.0,
+      "sodium_mg": 22.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "paneer",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 80.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:banana",
+    "name": "Banana",
+    "aliases": ["banana", "কলা"],
+    "category": "Fruit",
+    "preparation": "raw",
+    "nutrients": {
+      "energy_kcal": 89.0,
+      "protein_g": 1.1,
+      "carbohydrate_g": 23.0,
+      "fat_g": 0.3,
+      "fiber_g": 2.6,
+      "sugar_g": 12.0,
+      "sodium_mg": 1.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "banana",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 100.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:apple",
+    "name": "Apple",
+    "aliases": ["apple", "আপেল"],
+    "category": "Fruit",
+    "preparation": "raw",
+    "nutrients": {
+      "energy_kcal": 52.0,
+      "protein_g": 0.3,
+      "carbohydrate_g": 14.0,
+      "fat_g": 0.2,
+      "fiber_g": 2.4,
+      "sugar_g": 10.0,
+      "sodium_mg": 1.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "apple",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 150.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:yogurt",
+    "name": "Plain yogurt",
+    "aliases": ["curd", "yogurt", "দই"],
+    "category": "Dairy",
+    "preparation": "plain",
+    "nutrients": {
+      "energy_kcal": 61.0,
+      "protein_g": 3.5,
+      "carbohydrate_g": 4.7,
+      "fat_g": 3.3,
+      "fiber_g": 0.0,
+      "sugar_g": 4.7,
+      "sodium_mg": 46.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "yogurt",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 150.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:oats",
+    "name": "Rolled oats",
+    "aliases": ["oats", "ওটস"],
+    "category": "Grains",
+    "preparation": "dry",
+    "nutrients": {
+      "energy_kcal": 389.0,
+      "protein_g": 16.9,
+      "carbohydrate_g": 66.0,
+      "fat_g": 6.9,
+      "fiber_g": 10.6,
+      "sugar_g": 1.0,
+      "sodium_mg": 2.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "oats",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 40.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:chickpeas",
+    "name": "Chickpeas",
+    "aliases": ["chana", "chickpeas", "ছোলা"],
+    "category": "Pulses",
+    "preparation": "cooked",
+    "nutrients": {
+      "energy_kcal": 164.0,
+      "protein_g": 8.9,
+      "carbohydrate_g": 27.4,
+      "fat_g": 2.6,
+      "fiber_g": 7.6,
+      "sugar_g": 4.8,
+      "sodium_mg": 7.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "chickpeas",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 100.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:spinach",
+    "name": "Spinach",
+    "aliases": ["palak", "spinach", "পালং"],
+    "category": "Vegetables",
+    "preparation": "cooked",
+    "nutrients": {
+      "energy_kcal": 23.0,
+      "protein_g": 3.0,
+      "carbohydrate_g": 3.8,
+      "fat_g": 0.3,
+      "fiber_g": 2.4,
+      "sugar_g": 0.4,
+      "sodium_mg": 70.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "spinach",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 100.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:potato",
+    "name": "Boiled potato",
+    "aliases": ["potato", "আলু"],
+    "category": "Vegetables",
+    "preparation": "cooked",
+    "nutrients": {
+      "energy_kcal": 87.0,
+      "protein_g": 1.9,
+      "carbohydrate_g": 20.1,
+      "fat_g": 0.1,
+      "fiber_g": 1.8,
+      "sugar_g": 0.9,
+      "sodium_mg": 4.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "potato",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 120.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:oil",
+    "name": "Cooking oil",
+    "aliases": ["oil", "তেল"],
+    "category": "Fats",
+    "preparation": "unspecified",
+    "nutrients": {
+      "energy_kcal": 884.0,
+      "protein_g": 0.0,
+      "carbohydrate_g": 0.0,
+      "fat_g": 100.0,
+      "fiber_g": 0.0,
+      "sugar_g": 0.0,
+      "sodium_mg": 0.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "oil",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 5.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:milk",
+    "name": "Whole milk",
+    "aliases": ["milk", "দুধ"],
+    "category": "Dairy",
+    "preparation": "plain",
+    "nutrients": {
+      "energy_kcal": 61.0,
+      "protein_g": 3.2,
+      "carbohydrate_g": 4.8,
+      "fat_g": 3.3,
+      "fiber_g": 0.0,
+      "sugar_g": 5.0,
+      "sodium_mg": 43.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "milk",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 200.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  },
+  {
+    "id": "demo:fish",
+    "name": "Cooked fish",
+    "aliases": ["fish", "মাছ"],
+    "category": "Protein",
+    "preparation": "cooked",
+    "nutrients": {
+      "energy_kcal": 128.0,
+      "protein_g": 26.0,
+      "carbohydrate_g": 0.0,
+      "fat_g": 2.7,
+      "fiber_g": 0.0,
+      "sugar_g": 0.0,
+      "sodium_mg": 56.0
+    },
+    "source": {
+      "provider": "NutriTensor demo fixture",
+      "record_id": "fish",
+      "title": "Illustrative example — replace with verified data",
+      "url": null,
+      "retrieved_at": "2026-10-17",
+      "license": "Project-authored UI fixture",
+      "basis": "per_100g",
+      "is_demo": true
+    },
+    "servings": [
+      {
+        "label": "Example portion",
+        "grams": 100.0
+      }
+    ],
+    "allergens": [],
+    "notes": "Demonstration values only. Recipes, brands, cooking and portions vary."
+  }
+]
